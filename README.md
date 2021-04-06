@@ -3,15 +3,22 @@
 The Polarity Stackoverflow integration uses the Google search API to search to search for code examples on stackoverflow.
 
 * Stackoverflow
+* Stackexchange
+* Serverfault
+* Superuser
 
-| ![image](assets/overlay.png)
-|*Stackoverflow example* |
+![image](assets/overlay.png)
 
 ## Stackoverflow Integration Options
 
 ### API Key
 
 Valid Google CSE API Key
+
+### Search String
+
+Add search clause to filter search results even more such as "Javascript OR PYTHON" without the quotes.
+
 
 ## Installation Instructions
 
