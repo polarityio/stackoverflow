@@ -1,0 +1,60 @@
+{
+  "name": "Stackoverflow",
+  "acronym": "SO",
+  "description": "Stackoverflow integration uses Google Programmable Search to find public results on stackoverflow.com website",
+  "customTypes": [
+    {
+      "key": "so:searchstring",
+      "regex": "so:.{3,256}"
+    },
+    {
+      "key": "openString",
+      "regex": ".{3,256}"
+    }
+  ],
+  "onDemandOnly": true,
+  "defaultColor": "light-gray",
+  "styles": [
+    "./styles/style.less"
+  ],
+  "block": {
+    "component": {
+      "file": "./components/block.js"
+    },
+    "template": {
+      "file": "./templates/block.hbs"
+    }
+  },
+  "request": {
+    "cert": "",
+    "key": "",
+    "passphrase": "",
+    "ca": "",
+    "proxy": "",
+    "rejectUnauthorized": true
+  },
+  "logging": {
+    "level": "info"
+  },
+  "options": [
+    {
+      "key": "apiKey",
+      "name": "API Key",
+      "description": "Valid Google CSE API Key",
+      "default": "",
+      "type": "password",
+      "userCanEdit": false,
+      "adminOnly": true
+    },
+    {
+      "key": "searchString",
+      "name": "Search String",
+      "description": "Add search clause to filter search results even more such as \"Javascript OR PYTHON\" without the quotes.",
+      "default": "JAVASCRIPT OR PYTHON OR PERL OR C# OR C++ OR JAVA OR RUBY",
+      "type": "text",
+      "userCanEdit": true,
+      "adminOnly": false
+    }
+  ],
+  "entityTypes": []
+}
