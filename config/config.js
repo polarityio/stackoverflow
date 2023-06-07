@@ -27,11 +27,11 @@ module.exports = {
   customTypes: [
     {
       key: "so:searchstring",
-      regex: /so:.{3,256}/,
+      regex: /so:[\s\S]{2,2048}$/,
     },
     {
       key: "openString",
-      regex: /.{3,256}/,
+      regex: /^[\s\S]{2,2048}$/,
     },
   ],
   onDemandOnly: true,
