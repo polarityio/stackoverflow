@@ -1,0 +1,189 @@
+{
+  "icons": {
+    "stackoverflow": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE2SURBVDiNpZOxSgNBEIa/vdsLKRQL",
+    "stackexchange": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE2SURBVDiNpZOxSgNBEIa",
+    "serverfault": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE2SURBVDiNpZOxSgNBEIa/vdsLKRQL"
+  },
+  "searchResults": {
+    "searchInformation": {
+      "searchTime": 0.428543,
+      "formattedSearchTime": "0.43",
+      "totalResults": "847000",
+      "formattedTotalResults": "847,000"
+    },
+    "items": [
+      {
+        "kind": "customsearch#result",
+        "title": "How to check if a string contains a substring in Python",
+        "htmlTitle": "How to check if a string contains a <b>substring</b> in Python",
+        "link": "https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method",
+        "displayLink": "stackoverflow.com",
+        "snippet": "You can use the in operator: if \"blah\" not in somestring: continue. The in operator is the cleanest and most readable way to check for substring inclusion in Python.",
+        "htmlSnippet": "You can use the <b>in</b> operator: if &quot;blah&quot; not in somestring: continue. The in operator is the cleanest and most readable way to check for substring inclusion in Python.",
+        "cacheId": "V_YXKhJhLmsJ",
+        "formattedUrl": "https://stackoverflow.com/questions/3437059/does-python-have-a-string...",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/3437059/does-python-have-a-string...",
+        "pagemap": {
+          "question": [
+            {
+              "name": "Does Python have a string 'contains' substring method?",
+              "text": "I'm looking for a string.contains or string.indexof method in Python.\n\nI want to do:\n\nif not somestring.contains(\"blah\"):\n   continue"
+            }
+          ]
+        },
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "How do I check whether a file exists using Python?",
+        "htmlTitle": "How do I check whether a file exists using <b>Python</b>?",
+        "link": "https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists",
+        "displayLink": "stackoverflow.com",
+        "snippet": "Use pathlib.Path.exists() for Python 3.4+. from pathlib import Path my_file = Path(\"/path/to/file\") if my_file.exists(): # file exists",
+        "htmlSnippet": "Use <b>pathlib.Path.exists()</b> for Python 3.4+. from pathlib import Path my_file = Path(&quot;/path/to/file&quot;) if my_file.exists(): # file exists",
+        "cacheId": "gDKuLN81WJoJ",
+        "formattedUrl": "https://stackoverflow.com/questions/82831/how-do-i-check-whether-a...",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/82831/how-do-i-check-whether-a...",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "How to remove duplicates from a list in Python",
+        "htmlTitle": "How to remove duplicates from a list in <b>Python</b>",
+        "link": "https://stackoverflow.com/questions/7961363/removing-duplicates-in-lists",
+        "displayLink": "stackoverflow.com",
+        "snippet": "In Python 3.7+, dictionaries maintain insertion order, so: list(dict.fromkeys(mylist)) removes duplicates while preserving order.",
+        "htmlSnippet": "In Python 3.7+, dictionaries maintain insertion order, so: <b>list(dict.fromkeys(mylist))</b> removes duplicates while preserving order.",
+        "cacheId": "h8K2LPJ9QsQJ",
+        "formattedUrl": "https://stackoverflow.com/questions/7961363/removing-duplicates-in-lists",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/7961363/removing-duplicates-in-lists",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "How to parse JSON in Python",
+        "htmlTitle": "How to parse JSON in <b>Python</b>",
+        "link": "https://stackoverflow.com/questions/7771011/how-can-i-parse-read-and-use-json-in-python",
+        "displayLink": "stackoverflow.com",
+        "snippet": "Use the json module: import json with open('data.json') as f: data = json.load(f)",
+        "htmlSnippet": "Use the <b>json module</b>: import json with open('data.json') as f: data = json.load(f)",
+        "cacheId": "W8JhLN9mLPAJ",
+        "formattedUrl": "https://stackoverflow.com/questions/7771011/how-can-i-parse-read-and...",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/7771011/how-can-i-parse-read-and...",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Understanding Python list comprehensions",
+        "htmlTitle": "Understanding <b>Python</b> list comprehensions",
+        "link": "https://serverfault.com/questions/987654/python-list-comprehension-examples",
+        "displayLink": "serverfault.com",
+        "snippet": "List comprehensions provide a concise way to create lists. [x*2 for x in range(10)] creates [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]",
+        "htmlSnippet": "List comprehensions provide a concise way to create lists. <b>[x*2 for x in range(10)]</b> creates [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]",
+        "cacheId": "X9KmNO1pQRAJ",
+        "formattedUrl": "https://serverfault.com/questions/987654/python-list-comprehension...",
+        "htmlFormattedUrl": "https://serverfault.com/questions/987654/python-list-comprehension...",
+        "icon": "serverfault"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Best practices for Python exception handling",
+        "htmlTitle": "Best practices for <b>Python</b> exception handling",
+        "link": "https://stackoverflow.com/questions/730764/try-except-in-python",
+        "displayLink": "stackoverflow.com",
+        "snippet": "Use specific exception types: try: risky_operation() except ValueError: handle_value_error() except IOError: handle_io_error()",
+        "htmlSnippet": "Use specific exception types: <b>try: risky_operation() except ValueError: handle_value_error() except IOError: handle_io_error()</b>",
+        "cacheId": "Y2LpON2qSUBJ",
+        "formattedUrl": "https://stackoverflow.com/questions/730764/try-except-in-python",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/730764/try-except-in-python",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Python dictionary iteration best practices",
+        "htmlTitle": "<b>Python</b> dictionary iteration best practices",
+        "link": "https://stackoverflow.com/questions/3294889/iterating-over-dictionaries",
+        "displayLink": "stackoverflow.com",
+        "snippet": "Use .items() for key-value pairs: for key, value in my_dict.items(): print(f'{key}: {value}')",
+        "htmlSnippet": "Use <b>.items()</b> for key-value pairs: for key, value in my_dict.items(): print(f'{key}: {value}')",
+        "cacheId": "Z3MqPN3rTVCJ",
+        "formattedUrl": "https://stackoverflow.com/questions/3294889/iterating-over-dictionaries",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/3294889/iterating-over-dictionaries",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "How to merge two dictionaries in Python 3.9+",
+        "htmlTitle": "How to merge two dictionaries in <b>Python 3.9+</b>",
+        "link": "https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-python",
+        "displayLink": "stackoverflow.com",
+        "snippet": "Use the merge operator: merged = dict1 | dict2. This creates a new dictionary with values from both.",
+        "htmlSnippet": "Use the merge operator: <b>merged = dict1 | dict2</b>. This creates a new dictionary with values from both.",
+        "cacheId": "A4NrQO4sUWDJ",
+        "formattedUrl": "https://stackoverflow.com/questions/38987/how-to-merge-two...",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/38987/how-to-merge-two...",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Python string formatting: f-strings vs format()",
+        "htmlTitle": "<b>Python</b> string formatting: f-strings vs format()",
+        "link": "https://stackoverflow.com/questions/5082452/string-formatting-vs-format",
+        "displayLink": "stackoverflow.com",
+        "snippet": "F-strings are faster and more readable: name = 'Alice'; age = 30; print(f'{name} is {age} years old')",
+        "htmlSnippet": "F-strings are faster and more readable: <b>name = 'Alice'; age = 30; print(f'{name} is {age} years old')</b>",
+        "cacheId": "B5OsRN5tVXEJ",
+        "formattedUrl": "https://stackoverflow.com/questions/5082452/string-formatting-vs-format",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/5082452/string-formatting-vs-format",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Understanding Python generators and yield",
+        "htmlTitle": "Understanding <b>Python</b> generators and yield",
+        "link": "https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do",
+        "displayLink": "stackoverflow.com",
+        "snippet": "Generators use yield to return values lazily: def fibonacci(n): a, b = 0, 1; for _ in range(n): yield a; a, b = b, a + b",
+        "htmlSnippet": "Generators use <b>yield</b> to return values lazily: def fibonacci(n): a, b = 0, 1; for _ in range(n): yield a; a, b = b, a + b",
+        "cacheId": "C6PtSO6uWYFJ",
+        "formattedUrl": "https://stackoverflow.com/questions/231767/what-does-the-yield...",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/231767/what-does-the-yield...",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Python virtual environment setup guide",
+        "htmlTitle": "<b>Python</b> virtual environment setup guide",
+        "link": "https://stackoverflow.com/questions/41972261/what-is-a-virtualenv",
+        "displayLink": "stackoverflow.com",
+        "snippet": "Create isolated environments with: python -m venv myenv; source myenv/bin/activate (Linux/Mac) or myenv\\Scripts\\activate (Windows)",
+        "htmlSnippet": "Create isolated environments with: <b>python -m venv myenv; source myenv/bin/activate</b> (Linux/Mac) or myenv\\Scripts\\activate (Windows)",
+        "cacheId": "D7QuTO7vXZGJ",
+        "formattedUrl": "https://stackoverflow.com/questions/41972261/what-is-a-virtualenv",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/41972261/what-is-a-virtualenv",
+        "icon": "stackoverflow"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "How to sort a list of dictionaries by a value",
+        "htmlTitle": "How to sort a list of dictionaries by a value",
+        "link": "https://stackoverflow.com/questions/72899/how-do-i-sort-a-list-of-dictionaries",
+        "displayLink": "stackoverflow.com",
+        "snippet": "Use sorted() with a key function: sorted_list = sorted(list_of_dicts, key=lambda x: x['name'])",
+        "htmlSnippet": "Use <b>sorted()</b> with a key function: sorted_list = sorted(list_of_dicts, key=lambda x: x['name'])",
+        "cacheId": "E8RvUP8wYaHJ",
+        "formattedUrl": "https://stackoverflow.com/questions/72899/how-do-i-sort-a-list-of...",
+        "htmlFormattedUrl": "https://stackoverflow.com/questions/72899/how-do-i-sort-a-list-of...",
+        "pagemap": {
+          "question": [
+            {
+              "name": "How do I sort a list of dictionaries by a specific key's value?",
+              "text": "I have a list of dictionaries and want to sort them by the value of a specific key. What's the best approach in Python?"
+            }
+          ]
+        },
+        "icon": "stackoverflow"
+      }
+    ]
+  }
+}

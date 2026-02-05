@@ -1,0 +1,56 @@
+{
+  "root": {
+    "path": "",
+    "on_null": "return_empty"
+  },
+  "pipeline": [
+    {
+      "op": "copy",
+      "from": "searchResults.searchInformation.totalResults",
+      "to": "reduced_results.total_results"
+    },
+    {
+      "op": "copy",
+      "from": "searchResults.items",
+      "to": "reduced_results.search_items"
+    },
+    {
+      "op": "copy",
+      "from": "icons",
+      "to": "reduced_results.icons"
+    },
+    {
+      "op": "truncate_list",
+      "path": "reduced_results.search_items",
+      "max_size": 10,
+      "shape": {
+        "reduced_results.search_items": "$truncated",
+        "reduced_results.metadata": {
+          "truncated": "$was_truncated",
+          "original_count": "$original_count"
+        }
+      }
+    },
+    {
+      "op": "drop",
+      "paths": [
+        "reduced_results.search_items[].pagemap",
+        "reduced_results.search_items[].cacheId",
+        "reduced_results.search_items[].formattedUrl",
+        "reduced_results.search_items[].htmlTitle",
+        "reduced_results.search_items[].htmlSnippet",
+        "reduced_results.search_items[].htmlFormattedUrl",
+        "reduced_results.search_items[].mime",
+        "reduced_results.search_items[].fileFormat"
+      ]
+    },
+    {
+      "op": "prune",
+      "strategy": "empty_values",
+      "target": "reduced_results"
+    }
+  ],
+  "output": {
+    "result": "$working.reduced_results"
+  }
+}
